@@ -8,6 +8,6 @@ namespace Domain
 {
     class WifiAccount : Account
     {
-        string _ssid;
+        public virtual string Ssid { get; set; }
     }
 }

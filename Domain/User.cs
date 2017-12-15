@@ -8,11 +8,10 @@ namespace Domain
 {
     class User
     {
-        string _login;
-        string _password;
-        double _passwordstrength;
-        double _id;
-        List<Account> _accounts;
+        public virtual string Login { get; set; }
+        public virtual string Password { get; set; }
+        public virtual double Passwordstrength { get; set; }
+        public virtual int Id { get; set; }
     }
 
 

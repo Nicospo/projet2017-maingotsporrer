@@ -8,22 +8,22 @@ namespace Domain
 {
     public class Account
     {
-        double _id;
-        string _password;
-        double _passwordstrength;
-        string _name;
-        string _login;
+        public virtual double Id { get; set; }
+        public virtual string Password { get; set; }
+        public virtual double Passwordstrength { get; set; }
+        public virtual string Name { get; set; }
+        public virtual double UserId { get; set; }
+        public virtual string Login { get; set; }
 
         public bool verificateurMdp(string password)
         {
-            return password == _password;
+            return password == Password;
         }
 
         public void modiferMdp(string password)
         {
 
         }
-
 
     }
 }

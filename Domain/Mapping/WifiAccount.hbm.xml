@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Domain"
+                   namespace="Domain">
+
+  <class name="WifiAccount" table="wifiaccount">
+    <id name="Id" column="wifiaccount_id" type="int">
+      <generator class="native"></generator>
+    </id>
+    <property name="Password" column="wifiaccount_password" not-null="true"/>
+    <property name="Passwordstrength" column="wifiaccount_passwordstrength" not-null="true"/>
+    <property name="Login" column="wifiaccount_login"/>
+    <property name="UserId" column="wifiaccount_userid" not-null="true"/>
+    <property name="Ssid" column="wifiaccount_ssid" not-null="true"/>
+    <property name="Name" column="wifiaccount_name" not-null="true"/>
+    
+  </class>
+
+</hibernate-mapping>

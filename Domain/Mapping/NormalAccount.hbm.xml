@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Domain"
+                   namespace="Domain">
+
+  <class name="NormalAccount" table="normalaccount">
+    <id name="Id" column="normalaccount_id" type="int">
+      <generator class="native"></generator>
+    </id>
+    <property name="Name" column="normalaccount_name" not-null="true"/>
+    <property name="Password" column="normalaccount_password" not-null="true"/>
+    <property name="Passwordstrength" column="normalaccount_passwordstrength" not-null="true"/>
+    <property name="Login" column="normalaccount_login" not-null="true"/>
+    <property name="UserId" column="normalaccount_userid" not-null="true"/>
+  </class>
+
+</hibernate-mapping>
