@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    class User
+    public class User
     {
         public virtual string Login { get; set; }
         public virtual string Password { get; set; }

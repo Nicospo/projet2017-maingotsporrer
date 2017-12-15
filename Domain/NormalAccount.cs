@@ -8,6 +8,6 @@ namespace Domain
 {
     public class NormalAccount : Account
     {
-        
+           
     }
 }

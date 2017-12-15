@@ -9,6 +9,12 @@ namespace DAL
 {
     public interface INormalAccountRepository
     {
-        List<NormalAccount> GetAll();
+        IList<NormalAccount> GetAll();
+        NormalAccount Get(int id);
+        void Delete(NormalAccount Compte);
+        void Edit(NormalAccount Compte);
+        void Save(NormalAccount Compte);
+
+
     }
 }

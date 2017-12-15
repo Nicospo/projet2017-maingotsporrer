@@ -54,6 +54,7 @@
     <Compile Include="NormalAccountRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
+    <Compile Include="UserRepository.cs" />
     <Compile Include="WifiAccountRepository.cs" />
   </ItemGroup>
   <ItemGroup>

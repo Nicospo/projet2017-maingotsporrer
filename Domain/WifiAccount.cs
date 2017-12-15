@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    class WifiAccount : Account
+    public class WifiAccount : Account
     {
         public virtual string Ssid { get; set; }
     }
