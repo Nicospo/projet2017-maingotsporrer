@@ -15,6 +15,14 @@ namespace DAL
         {
             return Session.Query<WifiAccount>().ToList();
         }
+        public IList<WifiAccount> GetCompteFaible() /* A MODIFIER !!!*/
+        {
+            return Session.Query<WifiAccount>().ToList();
+        }
+        public IList<WifiAccount> GetCompteAncien()/* A MODIFIER !!!*/
+        {
+            return Session.Query<WifiAccount>().ToList();
+        }
         public WifiAccount Get(int id)
         {
             string requete = "select l from Account l where l.Id = " + id;

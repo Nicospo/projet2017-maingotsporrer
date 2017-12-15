@@ -10,6 +10,8 @@ namespace DAL
     public interface INormalAccountRepository
     {
         IList<NormalAccount> GetAll();
+        IList<NormalAccount> GetCompteFaible();
+        IList<NormalAccount> GetCompteAncien();
         NormalAccount Get(int id);
         void Delete(NormalAccount Compte);
         void Edit(NormalAccount Compte);

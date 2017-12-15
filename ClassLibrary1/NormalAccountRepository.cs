@@ -14,7 +14,14 @@ namespace DAL
         {
             return Session.Query<NormalAccount>().ToList();
         }
-
+        public IList<NormalAccount> GetCompteFaible() /* A MODIFIER !!!*/
+        {
+            return Session.Query<NormalAccount>().ToList();
+        }
+        public IList<NormalAccount> GetCompteAncien()/* A MODIFIER !!!*/
+        {
+            return Session.Query<NormalAccount>().ToList();
+        }
         public NormalAccount Get(int id)
         {
             string requete = "select l from Account l where l.Id = "+id;

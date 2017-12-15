@@ -10,9 +10,12 @@ namespace DAL
     public interface IWifiAccountRepository
     {
         IList<WifiAccount> GetAll();
+        IList<WifiAccount> GetCompteFaible();
+        IList<WifiAccount> GetCompteAncien();
         WifiAccount Get(int id);
         void Delete(WifiAccount CompteWifi);
         void Edit(WifiAccount CompteWifi);
         void Save(WifiAccount Compte);
+
     }
 }
