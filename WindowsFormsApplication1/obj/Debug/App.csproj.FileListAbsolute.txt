@@ -18,3 +18,4 @@ C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplica
 C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
 C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\Hibernate.cfg.xml
 C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\MySql.Data.dll
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.MainForm.resources

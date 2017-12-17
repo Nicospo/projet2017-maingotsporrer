@@ -13,17 +13,12 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Liste des utilisateurs :");
+          
             IUserRepository userRepo = new UserRepository();
-            IList<User> users = userRepo.GetAll();
-            foreach (User user in users)
-            {
-                Console.WriteLine(user);
-            }
 
             Console.WriteLine("Test :");
-            User user1 = userRepo.Get(3);
-            Console.WriteLine(user1);
+            User user1 = new User("coucou", "bite", 4);
+            Console.WriteLine(user1.checkStrength(user1.Password));
             Console.ReadKey();
         }
     }
