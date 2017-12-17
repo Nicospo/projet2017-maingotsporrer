@@ -15,21 +15,26 @@ namespace DAL
         {
             return Session.Query<WifiAccount>().ToList();
         }
-        public IList<WifiAccount> GetCompteFaible() /* A MODIFIER !!!*/
+        public IList<WifiAccount> GetCompteAncien() 
         {
-            return Session.Query<WifiAccount>().ToList();
+            DateTime sixMonthsAgo = DateTime.Today.AddDays(-183);
+            String request = "select w from WifiAccount w where w.Update < :date";
+            return Session.CreateQuery(request).SetDateTime("date", sixMonthsAgo).List<WifiAccount>();
         }
-        public IList<WifiAccount> GetCompteAncien()/* A MODIFIER !!!*/
+        public IList<WifiAccount> GetCompteFaible()/* A MODIFIER !!!*/
         {
             return Session.Query<WifiAccount>().ToList();
         }
         public WifiAccount Get(int id)
         {
-            string requete = "select l from Account l where l.Id = " + id;
+            string requete = "select l from WifiAccount l where l.Id = " + id;
             return (WifiAccount)Session.CreateQuery(requete);
         }
         public void Delete(WifiAccount Compte)
-        { }
+        {
+            Session.Delete(Compte);
+            Session.Flush();
+        }
         public void Edit(WifiAccount Compte)
         { }
         public void Save(WifiAccount Compte)

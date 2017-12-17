@@ -1,0 +1,11 @@
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\ClassLibrary1\bin\Debug\DAL.dll
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\ClassLibrary1\bin\Debug\DAL.pdb
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\ClassLibrary1\bin\Debug\Domain.dll
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\ClassLibrary1\bin\Debug\Iesi.Collections.dll
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\ClassLibrary1\bin\Debug\NHibernate.dll
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\ClassLibrary1\bin\Debug\Domain.pdb
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\ClassLibrary1\bin\Debug\Iesi.Collections.xml
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\ClassLibrary1\bin\Debug\NHibernate.xml
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\ClassLibrary1\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\ClassLibrary1\obj\Debug\DAL.dll
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\ClassLibrary1\obj\Debug\DAL.pdb

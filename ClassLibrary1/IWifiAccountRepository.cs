@@ -16,6 +16,5 @@ namespace DAL
         void Delete(WifiAccount CompteWifi);
         void Edit(WifiAccount CompteWifi);
         void Save(WifiAccount Compte);
-
     }
 }

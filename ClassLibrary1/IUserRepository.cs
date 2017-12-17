@@ -10,9 +10,9 @@ namespace DAL
     public interface IUserRepository
     {
         IList<User> GetAll();
-        IList<User> Get();
+        User Get(int id);
         void Delete(User Utilisateur);
         void Edit(User Utilisateur);
-        void Create();
+        void Save(User Utilisateur);
     }
 }

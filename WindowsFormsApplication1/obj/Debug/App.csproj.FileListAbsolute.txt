@@ -1,3 +1,20 @@
 c:\users\nsporrer\documents\visual studio 2015\Projects\ConsoleApplication3\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 H:\ProjetGenieLog\ConsoleApplication3\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\DAL.dll
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\Domain.dll
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\NHibernate.dll
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\Iesi.Collections.dll
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\DAL.pdb
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\Domain.pdb
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\NHibernate.xml
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\Iesi.Collections.xml
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\obj\Debug\App.csprojResolveAssemblyReference.cache
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\obj\Debug\App.csproj.GenerateResource.Cache
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\Hibernate.cfg.xml
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\WindowsFormsApplication1\bin\Debug\MySql.Data.dll

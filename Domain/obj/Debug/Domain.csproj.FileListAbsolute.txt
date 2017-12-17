@@ -1,0 +1,5 @@
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\Domain\bin\Debug\Domain.dll
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\Domain\bin\Debug\Domain.pdb
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\Domain\obj\Debug\Domain.dll
+C:\Users\nsporrer\Documents\GitHub\projet2017-maingotsporrer\Domain\obj\Debug\Domain.pdb

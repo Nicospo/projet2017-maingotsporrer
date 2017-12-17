@@ -8,7 +8,7 @@ using NHibernate.Linq;
 
 namespace DAL
 {
-    class UserRepository : Repository, IUserRepository
+    public class UserRepository : Repository, IUserRepository
     {
         public IList<User> GetAll()
         {
@@ -17,11 +17,14 @@ namespace DAL
 
         public User Get(int id)
         {
-            string requete = "select l from Account l where l.Id = " + id;
-            return (User)Session.CreateQuery(requete);
+            string requete = "select l from User l where l.Id = ?";
+            return Session.CreateQuery(requete).SetInt32(0, id).List<User>()[0];
         }
         public void Delete(User Utilisateur)
-        { }
+        {
+            Session.Delete(Utilisateur);
+            Session.Flush();
+        }
         public void Edit(User Utilisateur)
         { }
         public void Save(User Utilisateur)
@@ -29,5 +32,7 @@ namespace DAL
             Session.SaveOrUpdate(Utilisateur);
             Session.Flush();
         }
+
+       
     }
 }

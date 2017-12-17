@@ -14,6 +14,7 @@ namespace Domain
         public virtual string Name { get; set; }
         public virtual double UserId { get; set; }
         public virtual string Login { get; set; }
+        public virtual DateTime Update { get; set; }
 
         public bool verificateurMdp(string password)
         {
@@ -25,5 +26,11 @@ namespace Domain
 
         }
 
+        public void checkStrength(string password)
+        {
+
+        }
     }
 }
+
+

@@ -5,7 +5,7 @@
                    assembly="Domain"
                    namespace="Domain">
 
-  <class name="WifiAccount" table="wifiaccount">
+  <!--<class name="WifiAccount" table="wifiaccount">
     <id name="Id" column="wifiaccount_id" type="int">
       <generator class="native"></generator>
     </id>
@@ -16,6 +16,6 @@
     <property name="Ssid" column="wifiaccount_ssid" not-null="true"/>
     <property name="Name" column="wifiaccount_name" not-null="true"/>
     
-  </class>
+  </class>-->
 
 </hibernate-mapping>
